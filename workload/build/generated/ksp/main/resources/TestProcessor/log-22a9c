@@ -1,0 +1,48 @@
+TestProcessor: init({option1=value1, option2=value2})
+TestProcessor: process()
+TestProcessor: processing AClass.kt
+org.example
+ AClass
+  annotation
+    resolved to: org.example.Builder
+org.example.AClass.kt
+class
+  <init>
+   enclosing: org.example.AClass
+ org.example.AClass.kt
+     a
+     resolved to: kotlin.Int
+     b
+     resolved to: kotlin.String
+     c
+     resolved to: kotlin.Double
+ returnType:
+   resolved to: org.example.AClass
+ PRIVATE a
+   enclosing: org.example.AClass
+ org.example.AClass.kt
+  b
+   enclosing: org.example.AClass
+ org.example.AClass.kt
+   propertyGetter: 
+   
+     resolved to: kotlin.String
+  c
+   enclosing: org.example.AClass
+ org.example.AClass.kt
+   propertyGetter: 
+   
+     resolved to: kotlin.Double
+  p
+   enclosing: org.example.AClass
+ org.example.AClass.kt
+   resolved to: kotlin.String
+   propertyGetter: 
+   FINAL PUBLIC
+     resolved to: kotlin.String
+  foo
+   enclosing: org.example.AClass
+ org.example.AClass.kt
+ returnType:
+   resolved to: kotlin.String
+  resolved to: kotlin.Any
